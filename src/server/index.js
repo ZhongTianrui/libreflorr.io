@@ -35,7 +35,7 @@ async function testDB(){
 }
 testDB();*/
 // wtf
-app.use(express.static("src/client"));
+app.use(express.static("D:\\libreflorr.io\\src\\client"));
 
 app.get("/", function(req, res) {
   res.sendFile("index.html");
